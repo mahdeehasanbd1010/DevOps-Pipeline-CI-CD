@@ -3,7 +3,7 @@ const port = process.env.PORT || 8000;
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Welcome to CI CD Devops!!');
+    res.send('Welcome to CI CD Devops Pipeline!!');
 });
 
 app.get('/mul/:a/:b', (req, res) => {
