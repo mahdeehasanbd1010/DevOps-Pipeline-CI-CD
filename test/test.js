@@ -7,9 +7,9 @@ describe("GET /", () => {
     })
 });
 
-describe("GET /mul/4/5", (responds) => {
+describe("GET /gun/4/5", (responds) => {
     it("responds with right", (done) => {
-        request(app).get("/mul/4/5").expect('multiplication : 20' , done);
+        request(app).get("/gun/4/5").expect('multiplication : 20' , done);
     })
 });
 
