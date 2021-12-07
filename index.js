@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
     res.send('Welcome to CI CD Devops Pipeline!!');
 });
 
-app.get('/gun/:a/:b', (req, res) => {
+app.get('/mul/:a/:b', (req, res) => {
     const number1 = req.params.a
     const number2 = req.params.b
     const result = number1 * number2
